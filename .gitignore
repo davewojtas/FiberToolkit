@@ -1,0 +1,25 @@
+# Executable
+bin/
+
+# Data files
+*.dat
+*.bin
+*.log
+*.txt
+*.png
+*.npy
+*.byt
+*.pyc
+*.geom
+data
+
+# Utilities
+
+# Config file
+config.ini
+
+# Output folders (ending with four digits)
+/*[0-9][0-9][0-9][0-9]
+
+# PDB files in the aux folder
+/aux/*.pdb
